@@ -14,6 +14,9 @@ body {
 .top-banner h1 {
   margin-top: 20%;
 }
+.top-banner img {
+  margin-top: -60px;
+}
 h1 {
   font-family: "Yeseva One";
   font-size: 60px;
@@ -22,7 +25,7 @@ h1 {
   color: #3e3e3e;
 }
 .half-width p {
-  font-size: 18px;
+  font-size: 20px;
   color: #3e3e3e;
   margin-bottom: 30px;
 }
@@ -62,6 +65,9 @@ small {
   margin: 10px;
   padding: 20px;
 }
+.my-mission .card-area .card h4 {
+  font-size: 25px;
+}
 .my-mission .card-area .first-card {
   background-color: rgba(79, 157, 166, 0.1);
 }
@@ -75,34 +81,50 @@ small {
 .my-mission .card-area .card img {
   width: 141px;
 }
+.development-section {
+  background-image: url(images/shapes/shape-1.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: 110px;
+  background-position-y: 110px;
+}
 .development-area {
   display: flex;
   margin: 0 10%;
-  margin-top: 80px;
+  margin-top: 100px;
 }
-.development-area img {
+.development-area .half-width img {
   width: 100%;
   max-width: 450px;
 }
 .community {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-position: right;
+  background-position-y: 380px;
+  background-position-x: 92%;
+}
+.community-area {
   display: flex;
   margin: 0 10%;
   margin-top: 80px;
+  padding-bottom: 50px;
 }
-.community img {
+.community-area img {
   width: 100%;
   float: right;
   max-width: 450px;
 }
 .my-section {
   background-color: gray;
-  height: 500px;
+  height: 400px;
   position: relative;
   margin-top: 250px;
 }
-.my-information {
+.myself {
   display: flex;
-  margin: -150px 30% 0 30%;
+  margin: -150px 25% 0 25%;
   background-color: rgba(79, 157, 166, 0.5);
   padding: 2%;
   position: absolute;
